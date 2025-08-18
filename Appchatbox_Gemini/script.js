@@ -1,5 +1,5 @@
 // script.js
-const API_KEY = "AIzaSyAygnAjWha3jeIA7mj9RIGlljlhOXka8Qg"; // Thay bằng API Key của bạn
+const API_KEY = "YOUR_API_KEY"; // Thay bằng API Key của bạn
 const chatBox = document.getElementById("chat-box");
 const chatForm = document.getElementById("chat-form");
 const userInput = document.getElementById("user-input");
@@ -44,3 +44,4 @@ async function callGeminiAPI(prompt) {
     return "Đã xảy ra lỗi khi gọi API.";
   }
 }
+
